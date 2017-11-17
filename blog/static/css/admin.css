@@ -1,0 +1,47 @@
+.adminAddPost{
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1.5em;
+
+    box-shadow: 0 0px 2px rgba(0,0,0,0.3);
+
+    color: #161616;
+}
+
+.adminAddPostLink{
+    text-decoration: none;
+}
+
+
+.adminPostsTable{
+    width: 100%;
+}
+
+.adminPostsTable th{
+    background-color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.adminPostsTable tr{
+    background-color: #DfDfDf;
+}
+.adminPostsTable tr:nth-child(even) {
+    background-color: #d4d4d4;
+}
+.adminPostsTable td{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.adminDeleteButton{
+    color: red;
+    cursor: pointer;
+}
+
+.adminEditButton{
+    color: blue;
+    cursor: pointer;
+}
